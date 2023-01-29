@@ -1,0 +1,37 @@
+{
+  "name": "lending_investor_web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "buildexport": "next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.1.11",
+    "mysql2": "^2.3.3",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-minimal-pie-chart": "^8.4.0",
+    "react-select": "^5.5.7",
+    "web3": "^1.8.0",
+    "web3modal": "^1.9.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
