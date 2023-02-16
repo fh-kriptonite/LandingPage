@@ -23,7 +23,7 @@ export default function Navbar(props) {
                             <Link href="/" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Home</Link>
                         </li>
                         <li className="my-2 md:my-0">
-                            <Link href="/developer" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Developer</Link>
+                            <Link href="/about_us" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">About Us</Link>
                         </li>
                         <li className="my-2 md:my-0">
                             <a href="/Whitepaper_Wagon.pdf" target={"blank"} className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Whitepaper</a>

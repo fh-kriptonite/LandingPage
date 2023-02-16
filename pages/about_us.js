@@ -3,7 +3,7 @@ import JoinCommunity from "../components/JoinCommunity";
 import Footer from "../components/Footer";
 import DeveloperCard from "../components/DeveloperCard";
 
-export default function Developer(props) {
+export default function AboutUs(props) {
 
   return (
     <div>
