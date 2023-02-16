@@ -34,12 +34,9 @@ export default function Navbar(props) {
                         
                         
                         <li className="my-2 md:my-0">
-                            <Tooltip
-                                content="Coming Soon"
-                                trigger="hover"
-                            >
-                                <button type="button" className="button-dark" disabled={true}>Launch App</button>
-                            </Tooltip>
+                            <a href="https://t.me/wagon_network" target={"blank"} className="button-dark">
+                                Early Adopter
+                            </a>
                         </li>
                     </ul>
                 </div>

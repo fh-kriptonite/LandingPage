@@ -32,14 +32,11 @@ export default function Home(props) {
                                     Whitepaper
                                 </button>
                             </a>
-                            <Tooltip
-                                content="Coming Soon"
-                                trigger="hover"
-                            >
-                                <button type="button" className="button-white" disabled={true}>
-                                    Earn Now
+                            <a href="https://t.me/wagon_network" target={"blank"}>
+                                <button type="button" className="button-white">
+                                    Claim Whitelist
                                 </button>
-                            </Tooltip>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -84,11 +81,11 @@ export default function Home(props) {
 
                         <div className="bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col md:flex-row gap-5 items-center mt-8 p-5 rounded-xl justify-center">
                             <h5 className="text-lg font-medium text-white">
-                                Find out more about Wagon here
+                                Get your access now
                             </h5>
-                            <a href="/Whitepaper_Wagon.pdf" target={"blank"}>
+                            <a href="https://t.me/wagon_network" target={"blank"}>
                                 <button type="button" className="button-white">
-                                    Whitepaper
+                                    CLICK HERE
                                 </button>    
                             </a>
                         </div>
@@ -124,15 +121,15 @@ export default function Home(props) {
                         <thead className="text-md text-gray-700">
                             <tr className="bg-gray-100">
                                 <th scope="col" className="">
-                                    <h1 className="text-3xl font-medium tracking-tight leading-none md:text-4xl lg:text-5xl">Key Features</h1>
+                                    <h1 className="text-2xl font-medium tracking-tight leading-none md:text-3xl lg:text-4xl">Key Features</h1>
                                 </th>
                                 <th scope="col" className="px-6 w-64 bg-gray-300 rounded-t-xl text-xl font-bold py-6 border-b">
-                                    Wagon
+                                    Wagon DeFi
                                 </th>
-                                <th scope="col" className="px-6 w-64 pt-6 border-b">
-                                    Crypto
+                                <th scope="col" className="px-6 w-64 text-xl font-bold py-6 border-b">
+                                    Common DeFi
                                 </th>
-                                <th scope="col" className="px-6 w-64 pt-6 border-b">
+                                <th scope="col" className="px-6 w-64 text-xl font-bold py-6 border-b">
                                     Traditional Finance
                                 </th>
                             </tr>
@@ -174,7 +171,7 @@ export default function Home(props) {
                                     <img src="/accept.png" className="w-6 mx-auto" alt="tick"/>
                                 </td>
                                 <td className="py-4 px-6">
-                                    <img src="/close.png" className="w-6 mx-auto" alt="cross"/>
+                                    <img src="/accept.png" className="w-6 mx-auto" alt="tick"/>
                                 </td>
                                 <td className="py-4 px-6">
                                     <img src="/accept.png" className="w-6 mx-auto" alt="tick"/>
