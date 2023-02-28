@@ -3,7 +3,7 @@ import JoinCommunity from "../components/JoinCommunity";
 import Footer from "../components/Footer";
 import DeveloperCard from "../components/DeveloperCard";
 import {FaQuoteRight} from "react-icons/fa"
-import FaqSection from "../components/faqSection";
+import FaqSection from "../components/FaqSection";
 
 export default function AboutUs(props) {
 

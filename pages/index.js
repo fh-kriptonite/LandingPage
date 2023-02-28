@@ -4,7 +4,7 @@ import JoinCommunity from "../components/JoinCommunity";
 import Footer from "../components/Footer";
 import Roadmap from "../components/Roadmap";
 import { Tooltip } from "flowbite-react";
-import FaqSection from "../components/faqSection";
+import FaqSection from "../components/FaqSection";
 
 export default function Home(props) {
 
