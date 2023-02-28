@@ -41,7 +41,7 @@
 }
 
 .button-dark {
-  @apply text-white bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-[#0088e2] font-medium rounded-lg text-base px-5 py-2 text-center flex gap-4 justify-center items-center;
+  @apply text-white bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-[#0088e2] font-medium rounded-lg text-base px-5 py-2 text-center flex gap-4 justify-center items-center hover:cursor-pointer;
 }
 
 .button-transparent {
@@ -53,7 +53,7 @@
 }
 
 .button-community {
-  @apply text-white bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-[#0088e2] font-medium rounded-lg text-base px-5 py-2 text-center flex gap-4 justify-center items-center;
+  @apply text-white bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-[#0088e2] font-medium rounded-lg text-base px-5 py-2 text-center flex gap-4 justify-center items-center hover:cursor-pointer;
 }
 
 .active-howto {

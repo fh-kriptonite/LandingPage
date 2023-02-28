@@ -1,5 +1,6 @@
 import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
+import Link from "next/link";
 
 export default function JoinCommunity(props) {
 
@@ -26,32 +27,53 @@ export default function JoinCommunity(props) {
                                     Have some question?
                                 </p>
 
-                                <p className="text-base font-light">
-                                    See <a href="/faq" className="text-[#0088e2] ">FAQ</a> and <a href="/termsandcondition" className="text-[#0088e2] ">Terms & Condition</a>
+                                <p className="text-base font-light flex">
+                                    See 
+                                    <span>
+                                        <Link href="/faq" className="">
+                                            <p className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
+                                                FAQ
+                                            </p>
+                                        </Link>
+                                    </span>
+                                    and 
+                                    <span>
+                                        <Link href="/termsandcondition">
+                                            <p className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
+                                                Terms & Condition
+                                            </p>
+                                        </Link>
+                                    </span>
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="flex-auto md:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between items-start mt-10 sm:mt-0">
-                        <a href="https://t.me/wagon_network" target={"blank"} className="button-community">
-                            <FaTelegramPlane className="text-[#0088e2]"/>
-                            <div className="flex items-center gap-1">
-                                @Wagon_Network<span className="text-sm"><BsArrowUpRight/></span>
+                        <Link href="https://t.me/wagon_network" target={"blank"}>
+                            <div className="button-community">
+                                <FaTelegramPlane className="text-[#0088e2]"/>
+                                <div className="flex items-center gap-1">
+                                    @Wagon_Network<span className="text-sm"><BsArrowUpRight/></span>
+                                </div>
                             </div>
-                        </a>
-                        <a href="https://twitter.com/WagonNetwork" target={"blank"} className="button-community">
-                            <FaTwitter className="text-[#0088e2]"/>
-                            <div className="flex items-center gap-1">
-                                @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
+                        </Link>
+                        <Link href="https://twitter.com/WagonNetwork" target={"blank"}>
+                            <div className="button-community">
+                                <FaTwitter className="text-[#0088e2]"/>
+                                <div className="flex items-center gap-1">
+                                    @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
+                                </div>
                             </div>
-                        </a>
-                        <a href="https://www.instagram.com/wagonnetwork/" target={"blank"} className="button-community">
-                            <FaInstagram className="text-[#0088e2]"/>
-                            <div className="flex items-center gap-1">
-                                @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
+                        </Link>
+                        <Link href="https://www.instagram.com/wagonnetwork/" target={"blank"}>
+                            <div className="button-community">
+                                <FaInstagram className="text-[#0088e2]"/>
+                                <div className="flex items-center gap-1">
+                                    @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
+                                </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     
                 </div>

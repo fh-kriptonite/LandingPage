@@ -1,7 +1,7 @@
 import FaqCard from "./FaqCard";
 import faqJson from "../public/faq.json";
 
-export default function FaqSection(props) {
+const FaqSection = (props) => {
 
     return (
         <div className="bg-gray-100">
@@ -30,3 +30,5 @@ export default function FaqSection(props) {
         </div>
     )
   }
+
+  export default FaqSection

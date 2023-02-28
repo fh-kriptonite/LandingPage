@@ -1,6 +1,3 @@
-import { Disclosure } from '@headlessui/react'
-import { SlArrowDown } from "react-icons/sl"
-
 export default function TncCard(props) {
 
     return (

@@ -42,8 +42,8 @@ export default function AboutUs(props) {
                 </h1>
                 <p className="font-light text-gray-500 mt-6">
                     Wagon Network is a blockchain platform that is revolutionizing the supply chain industry. 
-                    Indonesia is the first entrance, the world's fourth-largest population spread across 17,000 islands, 
-                    and the country's complex demographics and geography present unique challenges in supply chain management. 
+                    Indonesia is the first entrance, the world&apos;s fourth-largest population spread across 17,000 islands, 
+                    and the country&apos;s complex demographics and geography present unique challenges in supply chain management. 
                     Wagon Network is addressing these challenges by providing a reliable and accurate information system using 
                     blockchain technology.
                 </p>

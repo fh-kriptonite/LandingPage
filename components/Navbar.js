@@ -35,11 +35,12 @@ export default function Navbar(props) {
                             <Link href="/faq" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">FAQ</Link>
                         </li>
                         
-                        
                         <li className="my-2 md:my-0">
-                            <a href="https://t.me/wagon_network" target={"blank"} className="button-dark">
-                                Early Adopter
-                            </a>
+                            <Link href="https://t.me/wagon_network" target={"blank"}>
+                                <div className="button-dark">
+                                    Early Adopter
+                                </div>
+                            </Link>
                         </li>
                     </ul>
                 </div>
