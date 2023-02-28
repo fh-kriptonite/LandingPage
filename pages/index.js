@@ -4,6 +4,7 @@ import JoinCommunity from "../components/JoinCommunity";
 import Footer from "../components/Footer";
 import Roadmap from "../components/Roadmap";
 import { Tooltip } from "flowbite-react";
+import FaqSection from "../components/faqSection";
 
 export default function Home(props) {
 
@@ -51,7 +52,7 @@ export default function Home(props) {
                         <img src="/mobile3.png" className="h-[36rem] md:h-[42rem] mx-auto rounded-xl" alt="dApps wagon" />
                     </div>
                     <div className="flex-1 mt-10 px-10">
-                       <h5 className="text-md font-medium text-cyan-500 tracking-tight leading-none md:text-md lg:text-lg">
+                       <h5 className="text-md font-medium text-[#0088e2] tracking-tight leading-none md:text-md lg:text-lg">
                             DECENTRALIZED SUPPLY CHAIN
                         </h5>
                         <h1 className="text-3xl font-medium tracking-tight leading-none md:text-4xl lg:text-5xl mt-2">
@@ -67,7 +68,7 @@ export default function Home(props) {
                             a decentralized finance system based on profit share is prepared.
                         </p>
 
-                        <h5 className="text-md font-medium text-cyan-500 tracking-tight leading-none md:text-md lg:text-lg mt-10">
+                        <h5 className="text-md font-medium text-[#0088e2] tracking-tight leading-none md:text-md lg:text-lg mt-10">
                             DECENTRALIZED FINANCE
                         </h5>
                         <h1 className="text-3xl font-medium tracking-tight leading-none md:text-4xl lg:text-5xl mt-2">
@@ -244,6 +245,8 @@ export default function Home(props) {
         <HowItWorks/>
 
         <Roadmap/>
+
+        <FaqSection/>
 
         <JoinCommunity/>
 

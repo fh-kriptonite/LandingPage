@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.12",
+    "@headlessui/tailwindcss": "^0.1.2",
     "@popperjs/core": "^2.11.6",
     "@tailwindcss/line-clamp": "^0.4.2",
     "axios": "^0.27.2",

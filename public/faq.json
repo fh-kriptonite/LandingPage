@@ -1,0 +1,67 @@
+[
+    {
+        "open":true,
+        "title": "What is Wagon Network?",
+        "label": "Wagon Network is a decentralized network that aims to address the issues of the broken supply chain network, which is outdated, lacking in transparency (opaque), and very fragmented."
+    },
+    {
+        "open":true,
+        "title": "Why should I invest in Wagon Network?",
+        "label": "Wagon Network platform features a staking platform that rewards stakers with a share of profits from our supply chain partner companies. The WAG Token will be used as a staking reward for individuals who contribute to the growth of the network. Stakers will receive monthly rewards that will be automatically compounded unless withdrawn.  The logistics sector has enormous potential and we will adapt it with blockchain technology."
+    },
+    {
+        "open":true,
+        "title": "What makes Wagon Network different from other DeFi projects?",
+        "label": "Wagon Network has partnered with several supply chain companies operating in Indonesia, the largest and the fastest-growing markets in Southeast Asia.  With this partnership, we know that Wagon Network also has a real sector."
+    },
+    {
+        "open":false,
+        "title": "What are the risks of investing in Wagon Network?",
+        "label": "With any DeFi investments, there are always risks. With the real sector that will move together, we hope it will minimize the risks that will occur."
+    },
+    {
+        "open":false,
+        "title": "Why Wagon is built in blockchain?",
+        "label": "Wagon uses blockchain technology to distribute transparency and control of network and data to all the supply chain players that participate and contribute in Wagon. The current supply chain network is closed loop to only the player who owns the data. This causes the cost of the supply chain to be very high. Wagon’s blockchain powered model aligns the incentives of the network itself with the players behind it."
+    },
+    {
+        "open":false,
+        "title": "What is the purpose of Wagon token ?",
+        "label": "Wagon token is used to stake and invest within the Wagon network. For users who stake and invest in Wagon project, they will receive rewards in the form of Wagon token as well. The token can be used to transact within the Wagon network as we grow the ecosystem further."
+    },
+    {
+        "open":false,
+        "title": "How can I purchase Wagon Token?",
+        "label": "Step-1 Connect your Metamask or Trust Wallet Connect with https://wagon.network/\nStep-2 Enter the amount you want to purchase and click on Buy Now.\nStep- 3 Your wallet provider will ask you to confirm the transactions 1st confirmation is for the Gas Fee and 2nd confirmation will be for Token Purchase, you need to approve both.\nStep- 4 You have successfully bought Wagon Token's presale."
+    },
+    {
+        "open":false,
+        "title": "Can I invest in multiple Wagon projects at the same time?",
+        "label": "There is no limit on the number of project to invest in as long as the funds are available."
+    },
+    {
+        "open":false,
+        "title": "How does Wagon make money from the project?",
+        "label": "For every project invested, Wagon will take a small percentage as a fee."
+    },
+    {
+        "open":false,
+        "title": "What types of projects Wagon invests in?",
+        "label": "Wagon to focus on the supply chain projects in Indonesia in the beginning. With 250 billion dollar market size, Wagon believes that there are many opportunities within Indonesia itself. Wagon can make a difference by providing financial inclusivity to the supply chain players in Indonesia through DeFi."
+    },
+    {
+        "open":false,
+        "title": "How and where can I purchase Wagon coin?",
+        "label": "During our presale phase, you can purchase your tokens from launchpads or directly from our website. After we launch to the general public, you will be able to purchase tokens on Uniswap."
+    },
+    {
+        "open":false,
+        "title": "Has the token been audited?",
+        "label": "We have passed our Audit with SolidProof and Coinscope which you can view here."
+    },
+    {
+        "open":false,
+        "title": "What is the minimum amount I can invest?",
+        "label": "There's no minimum amount to invest in Wagon project as long as you own Wagon token.\n\nNotes\nAll network transaction gas costs are paid in ETH by the account initiating the transaction. In the cases where the transaction is initiated by Wagon, the gas cost spent is excluded from your transaction."
+    }
+]

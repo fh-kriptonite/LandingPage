@@ -31,6 +31,9 @@ export default function Navbar(props) {
                         <li className="my-2 md:my-0">
                             <Link href="/ico" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">ICO</Link>
                         </li>
+                        <li className="my-2 md:my-0">
+                            <Link href="/faq" className="block py-2 pl-3 pr-4 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-gray-700 md:p-0">FAQ</Link>
+                        </li>
                         
                         
                         <li className="my-2 md:my-0">

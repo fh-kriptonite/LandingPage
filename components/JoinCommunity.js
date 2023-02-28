@@ -15,11 +15,19 @@ export default function JoinCommunity(props) {
                             
                             <div className="mx-auto md:pl-10">
                                 <h1 className="text-xl font-medium tracking-tight leading-none md:text-2xl lg:text-3xl">
-                                    Join our <span className="text-cyan-500">community</span>
+                                    Join our <span className="text-[#0088e2]">community</span>
                                 </h1>
 
                                 <p className="text-base font-light mt-4">
                                     Be part of a growing community of users, developers for a decentralized supply chain.
+                                </p>
+
+                                <p className="text-base font-light mt-4">
+                                    Have some question?
+                                </p>
+
+                                <p className="text-base font-light">
+                                    See <a href="/faq" className="text-[#0088e2] ">FAQ</a> and <a href="/termsandcondition" className="text-[#0088e2] ">Terms & Condition</a>
                                 </p>
                             </div>
                         </div>
@@ -27,19 +35,19 @@ export default function JoinCommunity(props) {
 
                     <div className="flex-auto md:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between items-start mt-10 sm:mt-0">
                         <a href="https://t.me/wagon_network" target={"blank"} className="button-community">
-                            <FaTelegramPlane className="text-cyan-500"/>
+                            <FaTelegramPlane className="text-[#0088e2]"/>
                             <div className="flex items-center gap-1">
                                 @Wagon_Network<span className="text-sm"><BsArrowUpRight/></span>
                             </div>
                         </a>
                         <a href="https://twitter.com/WagonNetwork" target={"blank"} className="button-community">
-                            <FaTwitter className="text-cyan-500"/>
+                            <FaTwitter className="text-[#0088e2]"/>
                             <div className="flex items-center gap-1">
                                 @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
                             </div>
                         </a>
                         <a href="https://www.instagram.com/wagonnetwork/" target={"blank"} className="button-community">
-                            <FaInstagram className="text-cyan-500"/>
+                            <FaInstagram className="text-[#0088e2]"/>
                             <div className="flex items-center gap-1">
                                 @WagonNetwork<span className="text-sm"><BsArrowUpRight/></span>
                             </div>
