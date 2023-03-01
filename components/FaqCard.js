@@ -7,7 +7,7 @@ export default function FaqCard(props) {
         <div className="my-5">
             <Disclosure defaultOpen={props.open}>
                 <Disclosure.Button className="py-2 flex justify-between w-full items-center ">
-                    <p className='text-md font-medium text-center tracking-tight leading-none lg:text-lg'>
+                    <p className='text-md font-medium lg:text-lg'>
                         {props.title}
                     </p>
                     <SlArrowDown className="ui-open:rotate-180 ui-open:transform" />

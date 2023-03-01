@@ -29,19 +29,15 @@ export default function JoinCommunity(props) {
 
                                 <p className="text-base font-light flex">
                                     See 
-                                    <span>
-                                        <Link href="/faq" className="">
-                                            <p className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
-                                                FAQ
-                                            </p>
+                                    <span className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
+                                        <Link href="/faq">
+                                            FAQ
                                         </Link>
                                     </span>
                                     and 
-                                    <span>
-                                        <Link href="/termsandcondition">
-                                            <p className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
-                                                Terms & Condition
-                                            </p>
+                                    <span className="text-[#0088e2] mx-1 font-semibold hover:cursor-pointer">
+                                        <Link href="/termsandcondition" >
+                                            Terms & Condition
                                         </Link>
                                     </span>
                                 </p>

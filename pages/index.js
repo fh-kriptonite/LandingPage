@@ -96,23 +96,6 @@ export default function Home(props) {
             </div>
         </div>
 
-        {/* section 3 */}
-        <div className="hidden sm:block">
-            <div className="container mx-auto px-10 py-10">
-                <div className="flex justify-center items-center h-72 md:h-96 gap-4">
-                    <div className="flex-1 h-full relative">
-                        <img src="/trucks.jpg" className="object-cover bg-right h-full rounded-xl" alt="Land Logistics" />
-                    </div>
-                    <div className="flex-1 h-full relative">
-                        <img src="/ship.jpg" className="object-cover h-full w-full rounded-xl" alt="Sea Logistics" />
-                    </div>
-                    <div className="flex-1 h-full relative">
-                        <img src="/plane.jpg" className="object-cover h-full rounded-xl" alt="Air Logistics" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
         {/* section 5 */}
         <div className="bg-gray-100">
             <div className="container mx-auto px-10 py-20">
@@ -245,6 +228,43 @@ export default function Home(props) {
         <HowItWorks/>
 
         <Roadmap/>
+
+        {/* section 3 */}
+        <div className="container mx-auto px-10 py-10">
+            <h1 className="text-3xl font-medium tracking-tight text-center leading-none md:text-4xl lg:text-5xl mb-8">
+                NEWS
+            </h1>
+            <div className="flex flex-col md:flex-row justify-center items-start gap-6">
+                
+                <div className="flex-1 h-full relative">
+                    <a href="https://m.tribunnews.com/amp/bisnis/2023/02/26/wagon-network-hadirkan-platform-blockchain-untuk-tingkatkan-kualitas-layanan-rantai-pasok" target={"blank"}>
+                        <img src="/Tribun.jpg" className="object-cover bg-right h-full rounded-md" alt="Land Logistics" />
+                        <p className='text-md font-medium lg:text-lg mt-4'>
+                            Tribun News - Wagon Network Presents Blockchain Platform to Improve Quality of Supply Chain Services
+                        </p>
+                    </a>
+                </div>
+                
+                <div className="flex-1 h-full relative">
+                    <a href="https://www.liputan6.com/jatim/read/5213300/gunakan-blockchain-solusi-logistik-ini-tingkatkan-efisiensi-dan-kualitas-layanan" target={"blank"}>
+                        <img src="/Liputan6.jpg" className="object-cover h-full w-full rounded-md" alt="Sea Logistics" />
+                        <p className='text-md font-medium lg:text-lg mt-4'>
+                            Liputan6 - Wagon use Bockchain for Logistic Solution Increase Service Efficiency and Quality
+                        </p>
+                    </a>
+                </div>
+                
+                <div className="flex-1 h-full relative">
+                    <a href="https://www.cnbcindonesia.com/mymoney/20230221153255-72-415724/punya-bisnis-bermasalah-dengan-rantai-pasok-ini-solusinya" target={"blank"}>
+                        <img src="/CNBC.jpg" className="object-cover h-full rounded-md" alt="Air Logistics" />
+                        <p className='text-md font-medium lg:text-lg mt-4'>
+                            CNBC - Wagon Network is the Solution for Supply Chain Business
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
 
         <FaqSection/>
 
